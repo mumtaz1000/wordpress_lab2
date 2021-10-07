@@ -1,0 +1,38 @@
+2021-09-25T09:37:35+00:00 CRITICAL require(): Failed opening required 'inc/class-storefront.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\labb2\wp-content\themes\labb2-mumtaz\functions.php on line 27
+
+2021-09-25T09:48:11+00:00 CRITICAL Uncaught Error: Call to undefined function wp_heade() in C:\xampp\htdocs\labb2\wp-content\themes\labb2-mumtaz\header.php:8
+Stack trace:
+#0 C:\xampp\htdocs\labb2\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\labb2\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\labb2\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\labb2\wp-content\themes\labb2-mumtaz\front-page.php(1): get_header()
+#4 C:\xampp\htdocs\labb2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\labb2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\labb2\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\labb2\wp-content\themes\labb2-mumtaz\header.php on line 8
+
+2021-09-25T09:48:27+00:00 CRITICAL Uncaught Error: Call to undefined function wp_header() in C:\xampp\htdocs\labb2\wp-content\themes\labb2-mumtaz\header.php:8
+Stack trace:
+#0 C:\xampp\htdocs\labb2\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\labb2\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\labb2\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\labb2\wp-content\themes\labb2-mumtaz\front-page.php(1): get_header()
+#4 C:\xampp\htdocs\labb2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\labb2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\labb2\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\labb2\wp-content\themes\labb2-mumtaz\header.php on line 8
+
+2021-09-25T09:48:30+00:00 CRITICAL Uncaught Error: Call to undefined function wp_header() in C:\xampp\htdocs\labb2\wp-content\themes\labb2-mumtaz\header.php:8
+Stack trace:
+#0 C:\xampp\htdocs\labb2\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\labb2\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\labb2\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\labb2\wp-content\themes\labb2-mumtaz\front-page.php(1): get_header()
+#4 C:\xampp\htdocs\labb2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\labb2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\labb2\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\labb2\wp-content\themes\labb2-mumtaz\header.php on line 8
+

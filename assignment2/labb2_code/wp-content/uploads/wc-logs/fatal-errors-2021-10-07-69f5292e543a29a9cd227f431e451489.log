@@ -1,0 +1,8 @@
+2021-10-07T09:35:46+00:00 CRITICAL syntax error, unexpected '​remove_starkers_styles' (T_STRING) in C:\xampp\htdocs\labb2\wp-content\themes\labb2-mumtaz\functions.php on line 3
+
+2021-10-07T09:37:15+00:00 CRITICAL syntax error, unexpected '​remove_styles' (T_STRING) in C:\xampp\htdocs\labb2\wp-content\themes\labb2-mumtaz\functions.php on line 29
+
+2021-10-07T09:38:06+00:00 CRITICAL syntax error, unexpected '​mumtaz_remove_styles' (T_STRING) in C:\xampp\htdocs\labb2\wp-content\themes\labb2-mumtaz\functions.php on line 29
+
+2021-10-07T11:20:42+00:00 CRITICAL syntax error, unexpected 'wp_enqueue_style' (T_STRING), expecting ',' or ';' in C:\xampp\htdocs\labb2\wp-content\themes\labb2-mumtaz\functions.php on line 23
+
